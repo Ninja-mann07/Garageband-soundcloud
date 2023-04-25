@@ -22,3 +22,22 @@ curl -X 'POST' \
   -F 'track[artwork_data]=@CullenJarvis_GettingConnected.pptx;type=application/vnd.openxmlformats-officedocument.presentationml.presentation' \
   -F 'track[embeddable_by]=' \
   -F 'track[purchase_url]='
+  "track": {
+    "title": "string",
+    "permalink": "string",
+    "sharing": "public",
+    "embeddable_by": "all",
+    "purchase_url": "string",
+    "description": "string",
+    "genre": "string",
+    "tag_list": "string",
+    "label_name": "string",
+    "release": "string",
+    "release_date": "string",
+    "streamable": true,
+    "downloadable": true,
+    "license": "no-rights-reserved",
+    "commentable": true,
+    "isrc": "string"
+  }
+}
